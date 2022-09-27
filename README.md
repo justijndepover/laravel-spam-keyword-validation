@@ -104,9 +104,11 @@ return [
 
 Your request can be validated with the blockSpamKeywords validation rule:
 
+```php
 $request->validate([
     'message' => ['blockSpamKeywords'],
-])
+]);
+```
 
 ## Security
 
