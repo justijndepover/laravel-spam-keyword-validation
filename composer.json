@@ -1,0 +1,44 @@
+{
+    "name": "justijndepover/laravel-spam-keyword-validation",
+    "description": "Laravel validation rule which checks for frequently used spam words",
+    "keywords": [
+        "justijndepover",
+        "laravel",
+        "laravel-spam-keyword-validation",
+        "spam",
+        "validation",
+        "rule"
+    ],
+    "homepage": "https://github.com/justijndepover/laravel-spam-keyword-validation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justijn Depover",
+            "email": "justijndepover@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Justijndepover\\LaravelSpamKeywordValidation\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Justijndepover\\LaravelSpamKeywordValidation\\Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^6.25|^7.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Justijndepover\\LaravelSpamKeywordValidation\\SpamKeywordValidationServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
