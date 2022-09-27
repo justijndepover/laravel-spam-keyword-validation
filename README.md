@@ -102,6 +102,12 @@ return [
 
 ## Usage
 
+Your request can be validated with the blockSpamKeywords validation rule:
+
+$request->validate([
+    'message' => ['blockSpamKeywords'],
+])
+
 ## Security
 
 If you find any security related issues, please open an issue or contact me directly at [justijndepover@gmail.com](justijndepover@gmail.com).
